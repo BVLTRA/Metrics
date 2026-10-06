@@ -3,7 +3,7 @@
  * See LICENSE file in the project root for full terms and restrictions.
  */
 
-const PROXY_URL = "https://bvltra-proxy.onrender.com/api/fatsecret-token";
+const PROXY_URL = "/api/fatsecret-token";
 
 export const getFatSecretToken = async () => {
   try {

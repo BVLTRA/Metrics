@@ -3,9 +3,9 @@
  * See LICENSE file in the project root for full terms and restrictions.
  */
 
-const PROXY_URL = "https://bvltra-proxy.onrender.com/api/fatsecret-token";
-const SEARCH_URL = "https://bvltra-proxy.onrender.com/api/search-food";
-const DETAILS_URL = "https://bvltra-proxy.onrender.com/api/get-food";
+const PROXY_URL = "/api/fatsecret-token";
+const SEARCH_URL = "/api/search-food";
+const DETAILS_URL = "/api/get-food";
 
 // Get access token (temporary)
 export const getAccessToken = async () => {

@@ -3,7 +3,7 @@
  * See LICENSE file in the project root for full terms and restrictions.
  */
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import NavigationBar from './components/Navbar';
 import LandingPage from './pages/LandingPage';
 import TimelinePage from './pages/TimelinePage';
@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* Note about Routing: This is so the Navbar appears on all routes */}
       <NavigationBar />
       
@@ -23,7 +23,7 @@ function App() {
         <Route path="/timeline" element={<TimelinePage />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
